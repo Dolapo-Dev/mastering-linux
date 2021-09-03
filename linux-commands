@@ -1,0 +1,5 @@
+find . -name "poe*"
+mv departments/marketing/* .
+rm poems?.txt
+mv departments/marketing/literature.txt .
+

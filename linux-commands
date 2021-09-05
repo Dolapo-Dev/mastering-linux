@@ -1,5 +1,15 @@
 find . -name "poe*"
 mv departments/marketing/* .
 rm poems?.txt
+rm -rf departments
 mv departments/marketing/literature.txt .
+grep "the" poems.txt
+grep -n "the" poems.txt
+grep -vi "the" poems.txt  : remove "the" from the output, i makes it insensitive
+grep -E "\w{6,}"poems.txt
 
+
+AWK & SED
+
+grep input_userauth_request auth.log | awk '{print }' | sort >attackers.txt [we used this to extract the names of criminals from the auth.log file to attackers.txt file]
+cat auth.log | grep input_userauth_request | awk '{print }' | sort -u >attackers.txt

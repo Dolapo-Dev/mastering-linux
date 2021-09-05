@@ -1,0 +1,15 @@
+dash.sh
+departments
+dupes.txt
+filelist2.txt
+filelist.txt
+image.png
+linux-commands
+log.tar.gz
+new_folder
+poems.txt
+README.md
+simple_data.txt
+simple_date.txt
+test.sh
+writing.txt
